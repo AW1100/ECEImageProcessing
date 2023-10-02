@@ -1,0 +1,2 @@
+# ECEImageProcessing
+Group 6
