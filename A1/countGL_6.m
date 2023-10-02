@@ -9,8 +9,10 @@ function y = countGL_6(im,v)
     N = length(v);
     y = zeros(1,N-1);
     for i = 1:N-1
+        %iterate all elements in im
         for e = 1:numel(im)
             if im(e) >= v(i) && im(e) < v(i+1)
+                %increment the count if condition satisfied
                 y(i) = y(i) + 1;
             end
         end
