@@ -1,0 +1,6 @@
+(b) Got a pretty close value with built in function graythresh
+	Lenna.tif 
+	intermeans: 0.4627
+	graythresh: 0.4588
+
+(c) 0.5137
