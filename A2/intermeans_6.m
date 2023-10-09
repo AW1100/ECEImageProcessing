@@ -1,4 +1,7 @@
 function thres = intermeans_6(im)
+    % Assignment 2, the implementation of the intermeans algorithm
+    % Threshold finding algorithm proposed by Ridler and Calvard(1978)
+    %
     % compute histogram h and transpose
     h = imhist(im)';
     % compute initial threshold
