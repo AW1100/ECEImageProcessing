@@ -1,6 +1,3 @@
-(b) Got a pretty close value with built in function graythresh
-	Lenna.tif 
-	intermeans: 0.4627
-	graythresh: 0.4588
+(b) By comparing the result with the built-in function graythresh, I got the exactly same value on image 'rice.png'
 
 (c) 0.5137

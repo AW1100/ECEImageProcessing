@@ -3,7 +3,7 @@ function thres = intermeans_6(im)
     % Threshold finding algorithm proposed by Ridler and Calvard(1978)
     %
     % compute histogram h and transpose
-    h = imhist(im)';
+    h = imhist(im).';
     % compute initial threshold
     thres = round(mean2(im));
     thres_prev = thres+1;
