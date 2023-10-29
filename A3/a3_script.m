@@ -1,0 +1,9 @@
+im=imread('pout.tif');
+im2=myequalize_06(im);
+figure;
+subplot(1,2,1);
+imshow(im);
+title('Original');
+subplot(1,2,2);
+imshow(im2);
+title('Equalized');
