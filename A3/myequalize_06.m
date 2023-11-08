@@ -12,8 +12,8 @@ function im2 = myequalize_06(im)
     for i=1:rows
         for j=1:cols
             % Summation of HA(i) from 0 to DA
-            da = im(i,j)+1;
-            im2(i,j) = uint8(cons*sum(H(1:da)));
+            da = im(i,j);
+            im2(i,j) = uint8(cons*double(sum(H(1:da+1))));
         end
     end
 end
