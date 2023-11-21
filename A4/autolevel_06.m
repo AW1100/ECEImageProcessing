@@ -1,6 +1,6 @@
 function [im2, a] = autolevel_06(fname)
-M = 25;
-N = 25;
+M = 10;
+N = 10;
 im = imread( fname );
 
 figure;
